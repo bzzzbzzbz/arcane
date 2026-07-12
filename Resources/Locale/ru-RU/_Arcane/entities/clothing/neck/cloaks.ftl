@@ -1,5 +1,5 @@
 ent-ClothingCloakNTRBlack = чёрный плащ представителя NanoTrasen
-    .desc = Чёрный плащ с золотой отделкой, созданных для лучших в своём деле.
+    .desc = Чёрный плащ с золотой отделкой, созданный для лучших в своём деле.
 ent-ClothingCloakNTRTricolor = трёхцветный плащ представителя NanoTrasen
     .desc = Зелёная полоса? Выглядит изысканно.
 ent-ClothingCloakCMOHonorable = почётный плащ главного врача
