@@ -266,6 +266,7 @@
   - NanoTrasenRepresentativeTophat
   - NanoTrasenRepresentativeEliteTophat
   - NanoTrasenRepresentativeCap
+  - NTRBlackBeretPatron # Arcane
 
 - type: loadoutGroup
   id: NanoTrasenRepresentativeNeck
@@ -273,6 +274,10 @@
   minLimit: 0
   loadouts:
     - NanoTrasenRepresentativeCloak
+    # Arcane - Start
+    - NTRBlackCloakPatron
+    - NTRTricolorCloakPatron
+    # Arcane - End
 
 - type: loadoutGroup
   id: NanoTrasenRepresentativeJumpsuit
@@ -284,6 +289,12 @@
   - NanoTrasenRepresentativeTurtleneck
   - NanoTrasenRepresentativeTurtleneckSkirt
   - NanoTrasenRepresentativeNoble
+  # Arcane - Start
+  - NTRBlackPatron
+  - NTRBlackSkirtPatron
+  - NTRWhiteSkirtPatron
+  - NTRWhitePatron
+  # Arcane - End
 
 - type: loadoutGroup
   id: NanoTrasenRepresentativeEyewear

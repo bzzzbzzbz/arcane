@@ -1,0 +1,65 @@
+- type: entity
+  parent: ClothingHeadHatNTRntcom
+  id: ClothingHatNTRBlackBeret
+  name: NTR's black beret
+  description: NTR's black beret.
+  components:
+  - type: Sprite
+    sprite: _Arcane/Clothing/Head/Sponsor/NTR_beret.rsi
+  - type: Clothing
+    sprite: _Arcane/Clothing/Head/Sponsor/NTR_beret.rsi
+
+- type: entity
+  parent: ClothingHeadHatNTRntcom
+  id: ClothingHatClownPink
+  name: pink clown hat
+  description: Pink clown hat.
+  components:
+  - type: Sprite
+    sprite: _Arcane/Clothing/Head/Sponsor/clown.rsi
+  - type: Clothing
+    sprite: _Arcane/Clothing/Head/Sponsor/clown.rsi
+
+- type: entity
+  parent: ClothingHeadHatNTRntcom
+  id: ClothingHatCMO
+  name: CMO's hat
+  description: CMO's hat.
+  components:
+  - type: Sprite
+    sprite: _Arcane/Clothing/Head/Sponsor/CMO_hat.rsi
+  - type: Clothing
+    sprite: _Arcane/Clothing/Head/Sponsor/CMO_hat.rsi
+
+- type: entity
+  parent: ClothingHeadHatNTRntcom
+  id: ClothingHatHOSCap
+  name: HOS' cap.
+  description: HOS' cap.
+  components:
+  - type: Sprite
+    sprite: _Arcane/Clothing/Head/Sponsor/HOS_cap.rsi
+  - type: Clothing
+    sprite: _Arcane/Clothing/Head/Sponsor/HOS_cap.rsi
+
+- type: entity
+  parent: ClothingHeadHatNTRntcom
+  id: ClothingHatQMBlackBeret
+  name: QM's black beret
+  description: QM's black beret.
+  components:
+  - type: Sprite
+    sprite: _Arcane/Clothing/Head/Sponsor/QM_beret.rsi
+  - type: Clothing
+    sprite: _Arcane/Clothing/Head/Sponsor/QM_beret.rsi
+
+- type: entity
+  parent: ClothingHeadHatNTRntcom
+  id: ClothingHatSanitar
+  name: sanitar hat
+  description: Sanitar hat.
+  components:
+  - type: Sprite
+    sprite: _Arcane/Clothing/Head/Sponsor/sanitar_hat.rsi
+  - type: Clothing
+    sprite: _Arcane/Clothing/Head/Sponsor/sanitar_hat.rsi

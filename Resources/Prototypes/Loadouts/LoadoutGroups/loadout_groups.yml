@@ -414,6 +414,10 @@
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
   - MaidOutfit # Starlight
+  # Arcane - Start
+  - BartenderPatron
+  - BartenderSkirtPatron
+  # Arcane - End
 
 
 - type: loadoutGroup
@@ -888,6 +892,7 @@
   loadouts:
   - QuartermasterHead
   - QuartermasterBeret
+  - QMBlackBeretPatron # Arcane
 
 - type: loadoutGroup
   id: QuartermasterJumpsuit
@@ -899,6 +904,12 @@
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
   - QuartermasterFormalSkirt # DeltaV
+  # Arcane - Start
+  - SleevelesQMBlackSkirtPatron
+  - SleevelesQMBlackPatron
+  - SleevelesQMSkirtPatron
+  - SleevelesQMPatron
+  # Arcane - End
 
 - type: loadoutGroup
   id: QuartermasterNeck
@@ -907,6 +918,10 @@
   loadouts:
   - QuartermasterCloak
   - QuartermasterMantle
+  # Arcane - Start
+  - QMBlackCloakPatron
+  - QMWhiteCloakPatron
+  # Arcane - End
 
 - type: loadoutGroup
   id: QuartermasterOuterClothing
@@ -914,6 +929,15 @@
   minLimit: 0
   loadouts:
   - QuartermasterWintercoat
+
+# Arcane - Start
+- type: loadoutGroup
+  id: QuartermasterHands
+  name: loadout-group-quartermaster-hands
+  minLimit: 0
+  loadouts:
+  - QMGlovesPatron
+# Arcane - End
 
 - type: loadoutGroup
   id: QuartermasterShoes
@@ -927,6 +951,7 @@
   - SalvageBoots
   - WorkBoots
   - Heels
+  - QMShoesPatron # Arcane
 
 - type: loadoutGroup
   id: QuartermasterJobTrinkets
@@ -1378,6 +1403,7 @@
   - HeadofSecurityHead
   - HeadofSecuritySheriff #Starlight
   - HeadofSecurityBeret
+  - HOSCapPatron # Arcane
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -1393,6 +1419,7 @@
   - HeadofSecurityBlackSkirt
   - HeadofSecurityBlueJumpsuit
   - HeadofSecurityGreyJumpsuit
+  - HOSShortDressPatron # Arcane
 
 - type: loadoutGroup
   id: HeadofSecurityNeck
@@ -1405,6 +1432,10 @@
   - HeadofSecurityMantle
   - HeadofSecurityBoatCloak #DeltaV
   - HeadofSecurityRobe #DeltaV
+  # Arcane - Start
+  - HOSBlackCloakPatron
+  - HOSRedCloakPatron
+  # Arcane - End
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
@@ -1414,6 +1445,10 @@
   loadouts:
   - HeadofSecurityCoat
   - HeadofSecurityWinterCoat
+  # Arcane - Start
+  - LeatherCoatPatron
+  - HOSLongVestPatron
+  # Arcane - End
 
 - type: loadoutGroup
   id: HeadofSecurityJobTrinkets
