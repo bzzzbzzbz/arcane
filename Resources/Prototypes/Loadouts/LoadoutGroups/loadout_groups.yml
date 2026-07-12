@@ -687,6 +687,7 @@
   loadouts:
   - JesterHat
   - JesterAltHat
+  - ClownPinkHatPatron # Arcane
 
 - type: loadoutGroup
   id: ClownJumpsuit
@@ -703,6 +704,7 @@
   - ClownSpottedJumpskirt # Starlight
   - JesterSuit
   - JesterAltSuit
+  - ClownPinkPatron # Arcane
 
 
 - type: loadoutGroup

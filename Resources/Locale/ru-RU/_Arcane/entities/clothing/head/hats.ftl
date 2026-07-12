@@ -1,0 +1,12 @@
+ent-ClothingHatNTRBlackBeret = чёрный берет представителя NanoTrasen
+    .desc = Элегантный головной убор.
+ent-ClothingHatClownPink = розовая шапка клоуна
+    .desc = Розовый - значит забавный!
+ent-ClothingHatCMO = шапочка главного врача
+    .desc = Создана для проведения операций и осмотров, но выглядит так, будто для парадов.
+ent-ClothingHatHOSCap = фуражка ГСБ
+    .desc = Я здесь закон!
+ent-ClothingHatQMBlackBeret = альтернативный берет квартирмейстера
+    .desc = Берет главы отдела снабжения.
+ent-ClothingHatSanitar = шапочка санитара
+    .desc = Головной убор маньяка из слэшера.
