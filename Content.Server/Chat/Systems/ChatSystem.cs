@@ -144,6 +144,31 @@ public sealed partial class ChatSystem : SharedChatSystem
                 break;
         }
     }
+    // Starloght - Start
+    private bool TryProccessCollectiveMindMessage(EntityUid source, ChatMessage message, out string modMessage, out CollectiveMindPrototype? channel)
+    {
+        modMessage = message.Text;
+        channel = null;
+
+        if (!TryComp<CollectiveMindComponent>(source, out var collective))
+            return false;
+
+        // Ищем префикс с keycode одного из доступных каналов
+        foreach (var channelId in collective.Channels)
+        {
+            if (!_prototypeManager.TryIndex(channelId, out var proto))
+                continue;
+
+            if (message.Text.Length > 0 && message.Text[0] == proto.KeyCode)
+            {
+                channel = proto;
+                modMessage = message.Text[1..].TrimStart();
+                return true;
+            }
+        }
+        return false;
+    }
+    // Starlight - End
 
     /// <inheritdoc />
     public override void TrySendInGameICMessage(
