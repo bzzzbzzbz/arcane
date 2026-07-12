@@ -51,6 +51,7 @@ using Content.Shared.Popups;
 using Content.Shared._Starlight.Radio;
 using Content.Server.Radio.EntitySystems;
 using Content.Server._Starlight.TextToSpeech;
+using Content.Shared._Starlight.CollectiveMind;
 // Starlight End
 
 namespace Content.Server.Chat.Systems;
@@ -77,6 +78,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private SharedAudioSystem _audio = default!;
     [Dependency] private ReplacementAccentSystem _wordreplacement = default!;
     [Dependency] private ExamineSystemShared _examineSystem = default!;
+    [Dependency] private readonly CollectiveMindUpdateSystem _collectiveMind = default!; // Starlight
     [Dependency] private LanguageSystem _language = default!; // Starlight
     [Dependency] private SharedPopupSystem _popups = default!; // Starlight
 
@@ -181,6 +183,11 @@ public sealed partial class ChatSystem : SharedChatSystem
             return;
         }
 
+        // Starlight - Start
+        if (TryComp<CollectiveMindComponent>(source, out var collective))
+            _collectiveMind.UpdateCollectiveMind(source, collective);
+        // Starlight - End
+
         if (player != null && _chatManager.HandleRateLimit(player) != RateLimitStatus.Allowed)
             return;
 
@@ -260,6 +267,24 @@ public sealed partial class ChatSystem : SharedChatSystem
                 return;
             }
         }
+
+        // Starlight - Start
+        if (desiredType == InGameICChatType.CollectiveMind)
+        {
+            if (TryProccessCollectiveMindMessage(source, message, out var modMessage, out var channel))
+            {
+                modMessage = FormattedMessage.RemoveMarkupOrThrow(modMessage); // Sanitize it so markup cannot be shown.
+
+                if (collective != null && collective.RespectAccents)
+                {
+                    modMessage = TransformSpeech(source, modMessage, language); // Einstein Engines - Languages (I made null since it requires a language input)
+                }
+
+                SendCollectiveMindChat(source, modMessage, channel);
+                return;
+            }
+        }
+        // Starlight - End
 
         if (language.Speech.RadioChannel is not null)
             _language.SendEntityRadioLanguage(source, message.Text, language.Speech.RadioChannel.Value, language);
@@ -507,6 +532,82 @@ public sealed partial class ChatSystem : SharedChatSystem
     #endregion
 
     #region Private API
+
+    // Starlight - Start
+    private void SendCollectiveMindChat(EntityUid source, string message, CollectiveMindPrototype? collectiveMind)
+    {
+        if (_mobStateSystem.IsDead(source) || collectiveMind == null || message == "" || !TryComp<CollectiveMindComponent>(source, out var sourseCollectiveMindComp) || !sourseCollectiveMindComp.Minds.ContainsKey(collectiveMind.ID))
+            return;
+
+        var clients = Filter.Empty();
+        var clientsSeeNames = Filter.Empty();
+        var mindQuery = EntityQueryEnumerator<CollectiveMindComponent, ActorComponent>();
+        while (mindQuery.MoveNext(out var uid, out var collectMindComp, out var actorComp))
+        {
+            if (_mobStateSystem.IsDead(uid))
+                continue;
+
+            if (collectMindComp.Minds.ContainsKey(collectiveMind.ID) || collectMindComp.HearAll)
+            {
+                if (collectMindComp.SeeAllNames)
+                    clientsSeeNames.AddPlayer(actorComp.PlayerSession);
+                else
+                    clients.AddPlayer(actorComp.PlayerSession);
+            }
+        }
+
+        var Number = $"{sourseCollectiveMindComp.Minds[collectiveMind.ID]}";
+
+        var admins = _adminManager.ActiveAdmins
+            .Select(p => p.Channel);
+
+        string messageWrap = Loc.GetString("collective-mind-chat-wrap-message",
+            ("message", message),
+            ("channel", collectiveMind.LocalizedName),
+            ("number", Number));
+        string namedMessageWrap = Loc.GetString("collective-mind-chat-wrap-message-named",
+            ("source", source),
+            ("message", message),
+            ("channel", collectiveMind.LocalizedName));
+        string adminMessageWrap = Loc.GetString("collective-mind-chat-wrap-message-admin",
+            ("source", source),
+            ("message", message),
+            ("channel", collectiveMind.LocalizedName),
+            ("number", Number));
+
+        _adminLogger.Add(LogType.Chat, LogImpact.Low, $"CollectiveMind chat from {ToPrettyString(source):Player}: {message}");
+
+        // send to normal clients
+        _chatManager.ChatMessageToManyFiltered(clients,
+            ChatChannel.CollectiveMind,
+            message,
+            collectiveMind.ShowNames ? namedMessageWrap : messageWrap,
+            source,
+            false,
+            true,
+            collectiveMind.Color);
+
+        // send to normal clients that should always see names, aka ghosts
+        _chatManager.ChatMessageToManyFiltered(clientsSeeNames,
+            ChatChannel.CollectiveMind,
+            message,
+            namedMessageWrap,
+            source,
+            false,
+            true,
+            collectiveMind.Color);
+
+        // FOR ADMINS
+        _chatManager.ChatMessageToMany(ChatChannel.CollectiveMind,
+            message,
+            adminMessageWrap,
+            source,
+            false,
+            true,
+            admins,
+            collectiveMind.Color);
+    }
+    // Starlight - End
 
     private void SendEntitySpeak(
         EntityUid source,
