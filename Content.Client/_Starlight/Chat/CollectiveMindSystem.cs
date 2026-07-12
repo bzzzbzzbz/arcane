@@ -11,7 +11,8 @@ using Content.Client.Chat.Managers;
 using Content.Shared._Starlight.CollectiveMind;
 using Robust.Client.Player;
 
-namespace Content.Client.Chat
+namespace Content.Client._Starlight.Chat
+
 {
     public sealed class CollectiveMindSystem : EntitySystem
     {
