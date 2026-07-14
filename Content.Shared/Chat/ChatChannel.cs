@@ -83,6 +83,12 @@ namespace Content.Shared.Chat
         /// <summary>
         ///     Unspecified.
         /// </summary>
+        ///
+        CollectiveMind = 1 << 14, // Starlight
+        /// <summary>
+        ///     Unspecified.
+        /// </summary>
+        ///
         Unspecified = 1 << 15,
 
         /// <summary>

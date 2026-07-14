@@ -640,7 +640,8 @@ public enum InGameICChatType : byte
 {
     Speak,
     Emote,
-    Whisper
+    Whisper,
+    CollectiveMind // Starlight
 }
 
 /// <summary>
