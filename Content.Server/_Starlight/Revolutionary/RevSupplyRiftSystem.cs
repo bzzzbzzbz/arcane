@@ -28,6 +28,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Content.Shared._Starlight.Revolutionary.Components;
 using Content.Shared._Starlight.Store.Events;
+using Content.Server.Chat.Managers;
 
 namespace Content.Server._Starlight.Revolutionary;
 
