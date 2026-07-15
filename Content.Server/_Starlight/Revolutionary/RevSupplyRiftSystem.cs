@@ -49,6 +49,7 @@ public sealed partial class RevSupplyRiftSystem : EntitySystem
     [Dependency] private IConfigurationManager _config = default!; // Starlight
     [Dependency] private RoundEndSystem _roundEnd = default!; // starlight
     [Dependency] private SharedTransformSystem _transform = default!; // Starlight
+    [Dependency] private ChatSystem _chatSystem = default!; // Starlight
 
     private static readonly ProtoId<ListingPrototype> RevSupplyRiftListingId = "RevSupplyRiftListing";
 
@@ -478,7 +479,7 @@ public sealed partial class RevSupplyRiftSystem : EntitySystem
             {
                 if (_alert.GetLevel(station) != "gamma")
                 {
-                    _chatManager.DispatchStationAnnouncement(station,
+                    _chatSystem.DispatchStationAnnouncement(station,
                         Loc.GetString("centcomm-revs-gammarift"),
                         Loc.GetString("cmd-announce-sender"));
                     _alert.SetLevel(station, "gamma", true, true, true, true);

@@ -298,7 +298,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         {
             if (TryProccessCollectiveMindMessage(source, message, out var modMessage, out var channel))
             {
-                modMessage = FormattedMessage.RemoveMarkupOrThrow(modMessage); // Sanitize it so markup cannot be shown.
+                modMessage = TransformSpeech(source, modMessage, language).Text; // Sanitize it so markup cannot be shown. Starlight edit
 
                 if (collective != null && collective.RespectAccents)
                 {
