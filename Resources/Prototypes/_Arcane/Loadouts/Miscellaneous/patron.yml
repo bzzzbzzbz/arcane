@@ -1,6 +1,6 @@
 - type: loadout
   id: BartenderPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -9,7 +9,7 @@
 
 - type: loadout
   id: BartenderSkirtPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -18,7 +18,7 @@
 
 - type: loadout
   id: NTRBlackPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -27,7 +27,7 @@
 
 - type: loadout
   id: NTRBlackSkirtPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -36,7 +36,7 @@
 
 - type: loadout
   id: NTRWhiteSkirtPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -45,7 +45,7 @@
 
 - type: loadout
   id: NTRWhitePatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -54,7 +54,7 @@
 
 - type: loadout
   id: ClownPinkPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -63,7 +63,7 @@
 
 - type: loadout
   id: CMOSweaterSkirtPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -72,7 +72,7 @@
 
 - type: loadout
   id: CMOSweaterPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -81,7 +81,7 @@
 
 - type: loadout
   id: HOSShortDressPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -90,7 +90,7 @@
 
 - type: loadout
   id: NunDressPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -99,7 +99,7 @@
 
 - type: loadout
   id: SleevelesQMBlackSkirtPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -108,7 +108,7 @@
 
 - type: loadout
   id: SleevelesQMBlackPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -117,7 +117,7 @@
 
 - type: loadout
   id: SleevelesQMSkirtPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -126,7 +126,7 @@
 
 - type: loadout
   id: SleevelesQMPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -135,7 +135,7 @@
 
 - type: loadout
   id: QMGlovesPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -144,7 +144,7 @@
 
 - type: loadout
   id: QMShoesPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -153,7 +153,7 @@
 
 - type: loadout
   id: OldFashionesDoctorShoesPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -162,7 +162,7 @@
 
 - type: loadout
   id: NTRBlackBeretPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -171,7 +171,7 @@
 
 - type: loadout
   id: ClownPinkHatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -180,7 +180,7 @@
 
 - type: loadout
   id: CMOHatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -189,7 +189,7 @@
 
 - type: loadout
   id: HOSCapPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -198,7 +198,7 @@
 
 - type: loadout
   id: QMBlackBeretPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -207,7 +207,7 @@
 
 - type: loadout
   id: SanitarHatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -216,7 +216,7 @@
 
 - type: loadout
   id: LeatherCoatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -225,7 +225,7 @@
 
 - type: loadout
   id: HOSLongVestPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -234,7 +234,7 @@
 
 - type: loadout
   id: EeayLabCoatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -243,7 +243,7 @@
 
 - type: loadout
   id: LabCoatBeltsPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -252,7 +252,7 @@
 
 - type: loadout
   id: LabCoatBlackPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -261,7 +261,7 @@
 
 - type: loadout
   id: LivseyCoatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -270,7 +270,7 @@
 
 - type: loadout
   id: ApostolCoatPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -279,7 +279,7 @@
 
 - type: loadout
   id: NTRBlackCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -288,7 +288,7 @@
 
 - type: loadout
   id: NTRTricolorCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -297,7 +297,7 @@
 
 - type: loadout
   id: CMOHonorableCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -306,7 +306,7 @@
 
 - type: loadout
   id: HOSBlackCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -315,7 +315,7 @@
 
 - type: loadout
   id: HOSRedCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -324,7 +324,7 @@
 
 - type: loadout
   id: QMBlackCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2
@@ -333,7 +333,7 @@
 
 - type: loadout
   id: QMWhiteCloakPatron
-  effects:
+  #effects:
   #- !type:SponsorRequirementLoadoutEffect
     #tiers:
     #- Tier2

@@ -14,6 +14,7 @@
       effects:
       - !type:HealthChange
         conditions:
+        - !type:HasTag
           tag: HumanoidXeno
           invert: true
         scaleByQuantity: true

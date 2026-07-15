@@ -136,7 +136,7 @@
     permanentlyHidden:
     - Eyes
   # Arcane-start: xenos have a species-specific ERP organ set.
-  - type: EroticOrgans
+  #- type: EroticOrgans
     groinCommon:
     - proto: OrganAnus
       slot: anus
@@ -236,7 +236,7 @@
   - type: Body
     prototype: HumanoidXeno
   # Arcane-start: species-specific organ prototypes
-  - type: EroticOrgans
+  #- type: EroticOrgans
     groinCommon:
     - proto: OrganAnus
       slot: anus
