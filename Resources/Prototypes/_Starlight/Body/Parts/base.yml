@@ -129,3 +129,21 @@
   - type: BodyPart
     partType: Foot
     symmetry: Right
+
+- type: entity
+  id: BaseChest
+  name: "chest"
+  parent: BasePart
+  abstract: true
+  components:
+  - type: BodyPart
+    partType: Torso
+
+- type: entity
+  id: BaseGroin
+  name: "groin"
+  parent: BasePart
+  abstract: true
+  components:
+  - type: BodyPart
+    partType: Torso
