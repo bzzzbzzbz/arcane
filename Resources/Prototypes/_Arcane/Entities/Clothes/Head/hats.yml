@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHatNTRntcom
+  parent: ClothingHeadBase
   id: ClothingHatNTRBlackBeret
   name: NTR's black beret
   description: NTR's black beret.
@@ -10,7 +10,7 @@
     sprite: _Arcane/Clothing/Head/Sponsor/NTR_beret.rsi
 
 - type: entity
-  parent: ClothingHeadHatNTRntcom
+  parent: ClothingHeadBase
   id: ClothingHatClownPink
   name: pink clown hat
   description: Pink clown hat.
@@ -21,7 +21,7 @@
     sprite: _Arcane/Clothing/Head/Sponsor/clown.rsi
 
 - type: entity
-  parent: ClothingHeadHatNTRntcom
+  parent: ClothingHeadBase
   id: ClothingHatCMO
   name: CMO's hat
   description: CMO's hat.
@@ -32,7 +32,7 @@
     sprite: _Arcane/Clothing/Head/Sponsor/CMO_hat.rsi
 
 - type: entity
-  parent: ClothingHeadHatNTRntcom
+  parent: ClothingHeadBase
   id: ClothingHatHOSCap
   name: HOS' cap.
   description: HOS' cap.
@@ -43,7 +43,7 @@
     sprite: _Arcane/Clothing/Head/Sponsor/HOS_cap.rsi
 
 - type: entity
-  parent: ClothingHeadHatNTRntcom
+  parent: ClothingHeadBase
   id: ClothingHatQMBlackBeret
   name: QM's black beret
   description: QM's black beret.
@@ -54,7 +54,7 @@
     sprite: _Arcane/Clothing/Head/Sponsor/QM_beret.rsi
 
 - type: entity
-  parent: ClothingHeadHatNTRntcom
+  parent: ClothingHeadBase
   id: ClothingHatSanitar
   name: sanitar hat
   description: Sanitar hat.
