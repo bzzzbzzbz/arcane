@@ -37,7 +37,7 @@ namespace Content.Server._Starlight.Revolutionary;
 /// </summary>
 public sealed partial class RevSupplyRiftSystem : EntitySystem
 {
-    [Dependency] private Chat.Managers.IChatManager _chatManager = default!;
+    [Dependency] private IChatManager _chatManager = default!;
     [Dependency] private NavMapSystem _navMap = default!;
     [Dependency] private StoreSystem _store = default!;
     [Dependency] private IGameTiming _timing = default!;
