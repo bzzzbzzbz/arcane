@@ -145,7 +145,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         }
     }
     // Starloght - Start
-    private bool TryProccessCollectiveMindMessage(EntityUid source, ChatMessage message, out string modMessage, out CollectiveMindPrototype? channel)
+    private bool TryProccessCollectiveMindMessage(EntityUid source, SpeechMessage message, out string modMessage, out CollectiveMindPrototype? channel)
     {
         modMessage = message.Text;
         channel = null;

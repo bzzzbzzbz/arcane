@@ -478,7 +478,7 @@ public sealed partial class RevSupplyRiftSystem : EntitySystem
             {
                 if (_alert.GetLevel(station) != "gamma")
                 {
-                    _chat.DispatchStationAnnouncement(station,
+                    _chatManager.DispatchStationAnnouncement(station,
                         Loc.GetString("centcomm-revs-gammarift"),
                         Loc.GetString("cmd-announce-sender"));
                     _alert.SetLevel(station, "gamma", true, true, true, true);
