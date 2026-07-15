@@ -30,8 +30,6 @@
   id: BaseHumanoidXenoOrgan
   parent: BaseHumanoidXenoOrganUnGibbable
   abstract: true
-  components:
-  - type: Gibbable
 
 - type: entity
   id: OrganHumanoidXenoBrain
