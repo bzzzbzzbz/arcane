@@ -57,6 +57,8 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     private JobPriorityEditor? _jobPriorityEditor;
     private CharacterSetupGuiSavePanel? _savePanel;
 
+    private static readonly string[] UnderwearSlots = ["underwear", "undershirt", "socks"]; // Orion
+
     /// begin starlight
     /// <summary>
     /// character editor window, see OpenCharacterSetupWindow()

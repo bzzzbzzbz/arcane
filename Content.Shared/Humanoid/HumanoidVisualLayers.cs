@@ -36,6 +36,10 @@ namespace Content.Shared.Humanoid
         FaceCoverCover, // Far Horizons
         BodyCover, // Far Horizons
         BodyCoverCover, // Far Horizons
-        Other
+        Other,
+        Tracheas, // Arcane edit
+
+        ErpGroin, // Arcane-edit: covered by underwear/pants/jumpsuit
+        ErpChest, // Arcane-edit: covered by undershirt/shirt/jumpsuit
     }
 }

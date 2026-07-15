@@ -28,6 +28,11 @@ public enum SlotFlags
     SUITSTORAGE = 1 << 15,
     MISC = 1 << 16, // Starlight
     OUTERCLOTHING2 = 1 << 17, // Starlight
+    // Orion-Start
+    UNDERWEAR = 1 << 18,
+    UNDERSHIRT = 1 << 19,
+    SOCKS = 1 << 20,
+    // Orion-End
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET
