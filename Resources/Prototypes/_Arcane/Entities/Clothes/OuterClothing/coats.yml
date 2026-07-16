@@ -19,16 +19,16 @@
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/robe.rsi
   - type: Clothing
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/robe.rsi
-  - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Tail
-    - Arm
-    - Leg
-    modifiers:
-      coefficients:
-        Caustic: 0.65
+  #- type: Armor
+    #coverage:
+    #- Chest
+    #- Groin
+    #- Tail
+    #- Arm
+    #- Leg
+    #modifiers:
+      #coefficients:
+        #Caustic: 0.65
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -40,16 +40,16 @@
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/robe_belts.rsi
   - type: Clothing
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/robe_belts.rsi
-  - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Tail
-    - Arm
-    - Leg
-    modifiers:
-      coefficients:
-        Caustic: 0.65
+  #- type: Armor
+    #coverage:
+    #- Chest
+    #- Groin
+    #- Tail
+    #- Arm
+    #- Leg
+    #modifiers:
+      #coefficients:
+        #Caustic: 0.65
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -61,16 +61,16 @@
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/black_robe.rsi
   - type: Clothing
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/black_robe.rsi
-  - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Tail
-    - Arm
-    - Leg
-    modifiers:
-      coefficients:
-        Caustic: 0.65
+  #- type: Armor
+    #coverage:
+    #- Chest
+    #- Groin
+    #- Tail
+    #- Arm
+    #- Leg
+    #modifiers:
+      #coefficients:
+        #Caustic: 0.65
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -82,16 +82,16 @@
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/livsey.rsi
   - type: Clothing
     sprite: _Arcane/Clothing/OuterClothing/Sponsor/livsey.rsi
-  - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Tail
-    - Arm
-    - Leg
-    modifiers:
-      coefficients:
-        Caustic: 0.65
+  #- type: Armor
+    #coverage:
+    #- Chest
+    #- Groin
+    #- Tail
+    #- Arm
+    #- Leg
+    #modifiers:
+      #coefficients:
+        #Caustic: 0.65
 
 - type: entity
   parent: ClothingOuterBase

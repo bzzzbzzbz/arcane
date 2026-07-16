@@ -23,12 +23,12 @@
     proto: alien
   - type: Temperature
     currentTemperature: 310.15
-    coldDamage:
-      types:
-        Cold: 0
-    heatDamage:
-      types:
-        Heat: 3
+    #coldDamage:
+     # types:
+      #  Cold: 0
+    #heatDamage:
+     # types:
+      #  Heat: 3
   - type: Speech
     speechVerb: LargeMob
     allowedEmotes: [ 'Hiss', 'Roars', 'Rumbles', 'Growl', 'Scream' ]
@@ -46,16 +46,17 @@
         Caustic: 1
   - type: LizardAccent
   - type: Bloodstream
-    bloodReagent: FluorosulfuricAcidHumanoidXeno
-    bloodMaxVolume: 300
+    bloodReferenceSolution:
+      reagents:
+      - reagentId: FluorosulfuricAcidHumanoidXeno
+        Quantity: 300
   - type: ProtectedFromStepTriggers
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: HumanoidXenomorph
   #- type: BlockInjection
   - type: NightVision
-    color: "#44944A"
-    toggleAction: ToggleNightVision
+    effect: EffectNightVisionXeno
 # Старая система оффов. Здесь испольуется WoundableVisuals, которая не требует оффов и работает на всех частях тела. Оверлэй пропиывюатся в самих огранах.
 #  - type: DamageVisuals
 #    damageOverlayGroups:
@@ -63,7 +64,7 @@
 #        sprite: Mobs/Effects/brute_damage.rsi
 #        color: "#44944A"
   - type: Stamina
-    critThreshold: 125
+    baseCritThreshold: 125
   - type: Hunger
     baseDecayRate: 0.08
   - type: Thirst
