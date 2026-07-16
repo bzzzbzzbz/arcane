@@ -52,7 +52,7 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: HumanoidXenomorph
-  - type: BlockInjection
+  #- type: BlockInjection
   - type: NightVision
     color: "#44944A"
     toggleAction: ToggleNightVision
