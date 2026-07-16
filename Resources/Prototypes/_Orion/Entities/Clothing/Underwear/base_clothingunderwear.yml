@@ -59,10 +59,10 @@
     - Recyclable
     - WhitelistChameleon
   - type: Armor
-  modifiers:
-    coefficients: {}
-  coverage:
-  - Groin
+    modifiers:
+      coefficients: {}
+    coverage:
+    - Groin
   # Arcane-start: hide erp groin organs when worn
   - type: HideLayerClothing
     layers:

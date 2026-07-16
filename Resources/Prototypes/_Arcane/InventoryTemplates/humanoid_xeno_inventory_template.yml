@@ -149,24 +149,24 @@
     strippingWindowPos: 3,1
     displayName: Underwear
     stripTime: 6
-  - name: wrists
-    slotTexture: wrists
-    fullTextureName: template_small
-    slotFlags: WRISTS
-    slotGroup: Extra
-    uiWindowPos: 1,1
-    strippingWindowPos: 3,4
-    displayName: Wrists
-    stripTime: 3
-  - name: earsright
-    slotTexture: ears_right
-    fullTextureName: template_small
-    slotFlags: EARSRIGHT
-    slotGroup: Extra
-    uiWindowPos: 2,1
-    strippingWindowPos: 3,0
-    displayName: Right Ear
-    stripTime: 3
+  #- name: wrists
+    #slotTexture: wrists
+    #fullTextureName: template_small
+    #slotFlags: WRISTS
+    #slotGroup: Extra
+    #uiWindowPos: 1,1
+    #strippingWindowPos: 3,4
+    #displayName: Wrists
+    #stripTime: 3
+  #- name: earsright
+   # slotTexture: ears_right
+    #fullTextureName: template_small
+    #slotFlags: EARSRIGHT
+    #slotGroup: Extra
+    #uiWindowPos: 2,1
+    #strippingWindowPos: 3,0
+    #displayName: Right Ear
+    #stripTime: 3
   - name: eyes
     slotTexture: glasses
     slotFlags: EYES

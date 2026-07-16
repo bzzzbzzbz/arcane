@@ -1580,6 +1580,11 @@
 - type: Tag
   id: XenoborgModuleStealth # Cyborg module category for evil stealth xenoborg
 
+# Arcane -  Start
+- type: Tag
+  id: HumanoidXeno # гуманоидные ксеноморфы
+# Arcane - End
+
 ## Y ##
 ## Z ##
 # ALPHABETICAL
