@@ -48,7 +48,7 @@
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:
-      - reagentId: FluorosulfuricAcidHumanoidXeno
+      - ReagentId: FluorosulfuricAcidHumanoidXeno
         Quantity: 300
   - type: ProtectedFromStepTriggers
   - type: Damageable
@@ -56,7 +56,7 @@
     damageModifierSet: HumanoidXenomorph
   #- type: BlockInjection
   - type: NightVision
-    effect: EffectNightVisionXeno
+    #effect: EffectNightVisionXeno
 # Старая система оффов. Здесь испольуется WoundableVisuals, которая не требует оффов и работает на всех частях тела. Оверлэй пропиывюатся в самих огранах.
 #  - type: DamageVisuals
 #    damageOverlayGroups:
@@ -161,9 +161,9 @@
   # Arcane-end
   - type: LanguageKnowledge
     speaks:
-    - TauCetiBasic
+    - GalacticCommon
     understands:
-    - TauCetiBasic
+    - GalacticCommon
   - type: CollectiveMind
     defaultChannel: HumanoidXenomind
     channels:
