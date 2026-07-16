@@ -26,7 +26,7 @@ namespace Content.Shared.Humanoid.Markings
         FaceCoverCover, // Far Horizons
         BodyCover, // Far Horizons
         BodyCoverCover, // Far Horizons
-         Tracheas // Arcane
+        Wings // Arcane
     }
 
     public static class MarkingCategoriesConversion
@@ -60,8 +60,8 @@ namespace Content.Shared.Humanoid.Markings
                 HumanoidVisualLayers.BodyCover => MarkingCategories.BodyCover, // Far Horizons
                 HumanoidVisualLayers.BodyCoverCover => MarkingCategories.BodyCoverCover, // Far Horizons
                 HumanoidVisualLayers.Tail => MarkingCategories.Tail,
-                HumanoidVisualLayers.Tracheas => MarkingCategories.Tracheas, // Arcane
-                _ => MarkingCategories.Overlay
+                HumanoidVisualLayers.Wings => MarkingCategories.Wings, // Arcane
+                _ => MarkingCategories.Overlay,
             };
         }
     }
