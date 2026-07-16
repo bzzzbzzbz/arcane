@@ -74,6 +74,7 @@ namespace Content.Shared.Humanoid
                     yield return HumanoidVisualLayers.BodyCover; // Far Horizons
                     yield return HumanoidVisualLayers.BodyCoverCover; // Far Horizons
                     yield return HumanoidVisualLayers.Tracheas; // Arcane
+                    break;
                 default:
                     yield break;
             }
