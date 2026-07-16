@@ -61,8 +61,8 @@
   - type: Armor
     modifiers:
       coefficients: {}
-    coverage:
-    - Groin
+   # coverage:
+    #- Groin
   # Arcane-start: hide erp groin organs when worn
   - type: HideLayerClothing
     layers:
