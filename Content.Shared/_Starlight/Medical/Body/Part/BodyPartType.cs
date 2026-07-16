@@ -17,6 +17,5 @@ namespace Content.Shared._Starlight.Medical.Body.Part
         Leg,
         Foot,
         Tail,
-        Tracheas // Arcane edit
     }
 }
