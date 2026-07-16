@@ -74,26 +74,6 @@ namespace Content.Shared.Humanoid
                     yield return HumanoidVisualLayers.BodyCover; // Far Horizons
                     yield return HumanoidVisualLayers.BodyCoverCover; // Far Horizons
                     yield return HumanoidVisualLayers.Tracheas; // Arcane
-                // Shitmed Change Start
-                    yield return HumanoidVisualLayers.Groin;
-                    break;
-                case HumanoidVisualLayers.Groin:
-                    yield return HumanoidVisualLayers.Groin;
-                    yield return HumanoidVisualLayers.Tail;
-                    break;
-                    case HumanoidVisualLayers.LHand:
-                    yield return HumanoidVisualLayers.LHand;
-                    break;
-                case HumanoidVisualLayers.RHand:
-                    yield return HumanoidVisualLayers.RHand;
-                    break;
-                case HumanoidVisualLayers.LFoot:
-                    yield return HumanoidVisualLayers.LFoot;
-                    break;
-                case HumanoidVisualLayers.RFoot:
-                    yield return HumanoidVisualLayers.RFoot;
-                    break;
-                // Shitmed Change End
                 default:
                     yield break;
             }

@@ -34,15 +34,6 @@
     state: "torso_m"
 
 - type: entity
-  id: GroinHumanoidXeno
-  name: "xenomorph groin"
-  parent: [PartHumanoidXeno, BaseGroin]
-  components:
-  - type: Sprite
-    sprite: _Arcane/Mobs/Species/HumanoidXeno/parts.rsi
-    state: "torso_m"
-
-- type: entity
   id: HeadHumanoidXeno
   name: "xenomorph head"
   parent: [PartHumanoidXeno, BaseHead]
