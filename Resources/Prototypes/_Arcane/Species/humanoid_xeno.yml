@@ -84,7 +84,7 @@
     Arms:
       points: 1
       required: false
-    Tracheas:
+    Wings:
       points: 1
       required: true
       defaultMarkings: [ HumanoidXenoTracheasDrone ]

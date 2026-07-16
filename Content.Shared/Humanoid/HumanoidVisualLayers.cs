@@ -37,7 +37,6 @@ namespace Content.Shared.Humanoid
         BodyCover, // Far Horizons
         BodyCoverCover, // Far Horizons
          Other,
-        Tracheas, // Arcane edit
         Wings, // Arcane
     }
 }
