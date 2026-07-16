@@ -14,7 +14,7 @@
       effects:
       - !type:HealthChange
         conditions:
-        - !type:HasTag
+        - !type:TagCondition
           tag: HumanoidXeno
           invert: true
         #scaleByQuantity: true
@@ -24,7 +24,7 @@
             Caustic: 1
       - !type:Emote
         conditions:
-        - !type:HasTag
+        - !type:TagCondition
           tag: HumanoidXeno
           invert: true
         emote: Scream
@@ -35,7 +35,7 @@
       effects:
       - !type:HealthChange
         conditions:
-        - !type:HasTag
+        - !type:TagCondition
           tag: HumanoidXeno
           invert: true
         damage:
@@ -43,7 +43,7 @@
             Caustic: 7
       - !type:PopupMessage
         conditions:
-        - !type:HasTag
+        - !type:TagCondition
           tag: HumanoidXeno
           invert: true
         type: Local
@@ -52,7 +52,7 @@
         probability: 0.33
       - !type:Emote
         conditions:
-        - !type:HasTag
+        - !type:TagCondition
           tag: HumanoidXeno
           invert: true
         emote: Scream
