@@ -11,25 +11,25 @@
   femaleFirstNames: names_xeno_first
   lastNames: names_xeno_last
   sexes: [Unsexed, Male, Female]
-  category: Unusual
-  description: "/ServerInfo/_Arcane/SpeciesDescriptions/HumanoidXeno.xml"
+  #category: Unusual
+  #description: "/ServerInfo/_Arcane/SpeciesDescriptions/HumanoidXeno.xml"
   minHeight: 0.90
   defaultHeight: 1
   maxHeight: 1.20
   minWidth: 0.90
   defaultWidth: 1
   maxWidth: 1.10
-  pros:
-  - Иммунитет к давлению открытого космоса.
-  - Кислотная кровь — ранения обжигают всех, кроме ксеноморфов.
-  - Получают на 4 единицы меньше тупого урона.
-  - Ночное видение.
-  - Порог выносливости увеличен до 125.
-  cons:
-  - Получают на 25% больше электрического урона.
-  - Получают на 20% больше теплового урона.
-  - Получают на 10% больше холодного урона.
-  - Получают на 5% больше колющего урона.
+  #pros:
+  #- Иммунитет к давлению открытого космоса.
+  #- Кислотная кровь — ранения обжигают всех, кроме ксеноморфов.
+  #- Получают на 4 единицы меньше тупого урона.
+  #- Ночное видение.
+  #- Порог выносливости увеличен до 125.
+  #cons:
+  #- Получают на 25% больше электрического урона.
+  #- Получают на 20% больше теплового урона.
+  #- Получают на 10% больше холодного урона.
+  #- Получают на 5% больше колющего урона.
 
 - type: speciesBaseSprites
   id: MobHumanoidXenoSprites
