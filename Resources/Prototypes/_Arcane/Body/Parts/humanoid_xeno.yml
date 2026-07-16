@@ -8,7 +8,7 @@
     sprite: _Arcane/Mobs/Species/HumanoidXeno/parts.rsi
     state: torso_m
   - type: BodyPart
-    species: HumanoidXeno
+    #species: HumanoidXeno
   - type: Extractable
     juiceSolution:
       reagents:

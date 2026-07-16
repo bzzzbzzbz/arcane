@@ -17,7 +17,7 @@
         - !type:HasTag
           tag: HumanoidXeno
           invert: true
-        scaleByQuantity: true
+        #scaleByQuantity: true
         ignoreResistances: false
         damage:
           types:

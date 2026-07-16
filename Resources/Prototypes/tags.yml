@@ -1583,6 +1583,9 @@
 # Arcane -  Start
 - type: Tag
   id: HumanoidXeno # гуманоидные ксеноморфы
+
+- type: Tag
+  id: NoXeno # для ограничения ксеноморфов
 # Arcane - End
 
 ## Y ##

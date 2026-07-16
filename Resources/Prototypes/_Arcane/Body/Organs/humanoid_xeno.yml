@@ -96,7 +96,7 @@
   - type: Sprite
     state: heart-off
   - type: Metabolizer
-    maxPoisonsProcessable: 2
+    #maxPoisonsProcessable: 2
     metabolizerTypes: [Animal]
     groups:
     - id: Medicine
@@ -122,7 +122,7 @@
           Quantity: 5
   - type: Stomach
   - type: Metabolizer
-    maxPoisonsProcessable: 3
+    #maxPoisonsProcessable: 3
     metabolizerTypes: [Animal]
     groups:
     - id: Food
@@ -137,7 +137,7 @@
   - type: Sprite
     state: liver
   - type: Metabolizer
-    maxPoisonsProcessable: 1
+    #maxPoisonsProcessable: 1
     metabolizerTypes: [Human]
     groups:
     - id: Alcohol
@@ -154,7 +154,7 @@
       - state: kidney-l
       - state: kidney-r
   - type: Metabolizer
-    maxPoisonsProcessable: 5
+    #maxPoisonsProcessable: 5
     metabolizerTypes: [Human]
     removeEmpty: true
 
