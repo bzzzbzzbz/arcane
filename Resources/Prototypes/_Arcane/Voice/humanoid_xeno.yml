@@ -24,7 +24,7 @@
       collection: XenomorphCoughs
       params:
         volume: -12
-    Hiss:
+    Hisses:
       collection: HumanoidXenoHisses
     Roars:
       collection: HumanoidXenoRoars
