@@ -16,7 +16,7 @@
         conditions:
         - !type:TagCondition
           tag: HumanoidXeno
-          invert: true
+          inverted: true
         #scaleByQuantity: true
         ignoreResistances: false
         damage:
@@ -26,7 +26,7 @@
         conditions:
         - !type:TagCondition
           tag: HumanoidXeno
-          invert: true
+          inverted: true
         emote: Scream
         probability: 0.2
   metabolisms:
@@ -37,7 +37,7 @@
         conditions:
         - !type:TagCondition
           tag: HumanoidXeno
-          invert: true
+          inverted: true
         damage:
           types:
             Caustic: 7
@@ -45,7 +45,7 @@
         conditions:
         - !type:TagCondition
           tag: HumanoidXeno
-          invert: true
+          inverted: true
         type: Local
         visualType: Large
         messages: [ "generic-reagent-effect-burning-insides" ]
@@ -54,6 +54,6 @@
         conditions:
         - !type:TagCondition
           tag: HumanoidXeno
-          invert: true
+          inverted: true
         emote: Scream
         probability: 0.25

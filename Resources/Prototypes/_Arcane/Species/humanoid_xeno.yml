@@ -38,11 +38,9 @@
     Head: MobHumanoidXenoHead
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
-    Face: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Eyes: MobHumanoidAnyMarking
     Chest: MobHumanoidXenoTorso
-    Groin: MobHumanoidXenoTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking

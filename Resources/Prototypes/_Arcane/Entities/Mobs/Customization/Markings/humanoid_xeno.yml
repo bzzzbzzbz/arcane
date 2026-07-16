@@ -331,7 +331,7 @@
 - type: marking
   id: HumanoidXenoTracheasDrone
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Species/HumanoidXeno/parts.rsi
@@ -340,7 +340,7 @@
 - type: marking
   id: HumanoidXenoTracheasPredalien
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -349,7 +349,7 @@
 - type: marking
   id: HumanoidXenoTracheasPretor
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -358,7 +358,7 @@
 - type: marking
   id: HumanoidXenoTracheasQueen
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -367,7 +367,7 @@
 - type: marking
   id: HumanoidXenoTracheasRavager
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -376,7 +376,7 @@
 - type: marking
   id: HumanoidXenoTracheasBoiler
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -385,7 +385,7 @@
 - type: marking
   id: HumanoidXenoTracheasCrusher
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -394,7 +394,7 @@
 - type: marking
   id: HumanoidXenoTracheasNeomorph
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/tracheas.rsi
@@ -403,7 +403,7 @@
 - type: marking
   id: HumanoidXenoTracheasCarrier
   bodyPart: Chest
-  markingCategory: Tracheas
+  markingCategory: Wings
   speciesRestriction: [HumanoidXeno]
   sprites:
   - sprite: _Arcane/Mobs/Customization/HumanoidXeno/long_tracheas.rsi
