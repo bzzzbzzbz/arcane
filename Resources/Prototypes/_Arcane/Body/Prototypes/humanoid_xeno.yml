@@ -14,18 +14,13 @@
     chest:
       part: ChestHumanoidXeno
       connections:
-      - groin
       - right arm
       - left arm
-      organs:
-        heart: OrganHumanoidXenoHeart
-        lungs: OrganHumanoidXenoLungs
-    groin:
-      part: GroinHumanoidXeno
-      connections:
       - right leg
       - left leg
       organs:
+        heart: OrganHumanoidXenoHeart
+        lungs: OrganHumanoidXenoLungs
         stomach: OrganHumanoidXenoStomach
         liver: OrganHumanoidXenoLiver
         kidneys: OrganHumanoidXenoKidneys

@@ -138,12 +138,3 @@
   components:
   - type: BodyPart
     partType: Torso
-
-- type: entity
-  id: BaseGroin
-  name: "groin"
-  parent: BasePart
-  abstract: true
-  components:
-  - type: BodyPart
-    partType: Torso
