@@ -20,7 +20,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using Content.Server.Chat.Systems;
-using Content.Shared._Starlight.CollectiveMind;
+using Content.Shared._Arcane.CollectiveMind;
 using Content.Shared.Administration;
 using Content.Shared.Chat;
 using Content.Shared.Mobs.Systems;
@@ -28,7 +28,7 @@ using Robust.Shared.Console;
 using Robust.Shared.Enums;
 using Robust.Shared.Player;
 
-namespace Content.Server._Starlight.Chat.Commands
+namespace Content.Server._Arcane.Chat.Commands
 {
     [AnyCommand]
     internal sealed class CollectiveMindCommand : IConsoleCommand

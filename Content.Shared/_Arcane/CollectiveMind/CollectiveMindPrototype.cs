@@ -6,7 +6,7 @@
 
 using Robust.Shared.Prototypes;
 
-namespace Content.Shared._Starlight.CollectiveMind;
+namespace Content.Shared._Arcane.CollectiveMind;
 
 [Prototype("collectiveMind")]
 public sealed partial class CollectiveMindPrototype : IPrototype

@@ -51,7 +51,7 @@ using Content.Shared.Popups;
 using Content.Shared._Starlight.Radio;
 using Content.Server.Radio.EntitySystems;
 using Content.Server._Starlight.TextToSpeech;
-using Content.Shared._Starlight.CollectiveMind;
+using Content.Shared._Arcane.CollectiveMind;
 // Starlight End
 
 namespace Content.Server.Chat.Systems;
@@ -78,7 +78,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private SharedAudioSystem _audio = default!;
     [Dependency] private ReplacementAccentSystem _wordreplacement = default!;
     [Dependency] private ExamineSystemShared _examineSystem = default!;
-    [Dependency] private readonly CollectiveMindUpdateSystem _collectiveMind = default!; // Starlight
+    [Dependency] private readonly CollectiveMindUpdateSystem _collectiveMind = default!; // Arcane
     [Dependency] private LanguageSystem _language = default!; // Starlight
     [Dependency] private SharedPopupSystem _popups = default!; // Starlight
 
@@ -144,7 +144,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                 break;
         }
     }
-    // Starloght - Start
+    // Arcane - Start
     private bool TryProccessCollectiveMindMessage(EntityUid source, SpeechMessage message, out string modMessage, out CollectiveMindPrototype? channel)
     {
         modMessage = message.Text;
@@ -168,7 +168,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         }
         return false;
     }
-    // Starlight - End
+    // Arcane - End
 
     /// <inheritdoc />
     public override void TrySendInGameICMessage(
@@ -208,10 +208,10 @@ public sealed partial class ChatSystem : SharedChatSystem
             return;
         }
 
-        // Starlight - Start
+        // Arcane - Start
         if (TryComp<CollectiveMindComponent>(source, out var collective))
             _collectiveMind.UpdateCollectiveMind(source, collective);
-        // Starlight - End
+        // Arcane - End
 
         if (player != null && _chatManager.HandleRateLimit(player) != RateLimitStatus.Allowed)
             return;
@@ -293,12 +293,12 @@ public sealed partial class ChatSystem : SharedChatSystem
             }
         }
 
-        // Starlight - Start
+        // Arcane - Start
         if (desiredType == InGameICChatType.CollectiveMind)
         {
             if (TryProccessCollectiveMindMessage(source, message, out var modMessage, out var channel))
             {
-                modMessage = TransformSpeech(source, modMessage, language).Text; // Sanitize it so markup cannot be shown. Starlight edit
+                modMessage = TransformSpeech(source, modMessage, language).Text; // Sanitize it so markup cannot be shown. Arcane edit
 
                 if (collective != null && collective.RespectAccents)
                 {
@@ -309,7 +309,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                 return;
             }
         }
-        // Starlight - End
+        // Arcane - End
 
         if (language.Speech.RadioChannel is not null)
             _language.SendEntityRadioLanguage(source, message.Text, language.Speech.RadioChannel.Value, language);
@@ -558,7 +558,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
     #region Private API
 
-    // Starlight - Start
+    // Arcane - Start
     private void SendCollectiveMindChat(EntityUid source, string message, CollectiveMindPrototype? collectiveMind)
     {
         if (_mobStateSystem.IsDead(source) || collectiveMind == null || message == "" || !TryComp<CollectiveMindComponent>(source, out var sourseCollectiveMindComp) || !sourseCollectiveMindComp.Minds.ContainsKey(collectiveMind.ID))
@@ -632,7 +632,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             admins,
             collectiveMind.Color);
     }
-    // Starlight - End
+    // Arcane - End
 
     private void SendEntitySpeak(
         EntityUid source,

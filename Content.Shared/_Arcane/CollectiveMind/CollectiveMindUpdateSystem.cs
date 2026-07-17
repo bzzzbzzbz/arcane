@@ -9,7 +9,7 @@
 using Content.Shared.Tag;
 using Robust.Shared.Prototypes;
 
-namespace Content.Shared._Starlight.CollectiveMind;
+namespace Content.Shared._Arcane.CollectiveMind;
 
 public sealed class CollectiveMindUpdateSystem : EntitySystem
 {

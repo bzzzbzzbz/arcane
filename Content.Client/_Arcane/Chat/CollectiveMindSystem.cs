@@ -8,10 +8,10 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using Content.Client.Chat.Managers;
-using Content.Shared._Starlight.CollectiveMind;
+using Content.Shared._Arcane.CollectiveMind;
 using Robust.Client.Player;
 
-namespace Content.Client._Starlight.Chat
+namespace Content.Client._Arcane.Chat
 
 {
     public sealed class CollectiveMindSystem : EntitySystem
