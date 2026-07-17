@@ -9,10 +9,6 @@
     quickEquip: true
     slots:
     - underwear
-    equipSound:
-      collection: GenericEquip
-      params:
-        volume: -5
   - type: Item
     size: Small
   - type: Butcherable
