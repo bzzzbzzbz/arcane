@@ -28,7 +28,6 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Content.Shared._Starlight.Revolutionary.Components;
 using Content.Shared._Starlight.Store.Events;
-using Content.Server.Chat.Managers;
 
 namespace Content.Server._Starlight.Revolutionary;
 
@@ -37,7 +36,8 @@ namespace Content.Server._Starlight.Revolutionary;
 /// </summary>
 public sealed partial class RevSupplyRiftSystem : EntitySystem
 {
-    [Dependency] private IChatManager _chatManager = default!;
+    [Dependency] private ChatSystem _chat = default!;
+    [Dependency] private Chat.Managers.IChatManager _chatManager = default!;
     [Dependency] private NavMapSystem _navMap = default!;
     [Dependency] private StoreSystem _store = default!;
     [Dependency] private IGameTiming _timing = default!;
@@ -49,7 +49,6 @@ public sealed partial class RevSupplyRiftSystem : EntitySystem
     [Dependency] private IConfigurationManager _config = default!; // Starlight
     [Dependency] private RoundEndSystem _roundEnd = default!; // starlight
     [Dependency] private SharedTransformSystem _transform = default!; // Starlight
-    [Dependency] private ChatSystem _chatSystem = default!; // Starlight
 
     private static readonly ProtoId<ListingPrototype> RevSupplyRiftListingId = "RevSupplyRiftListing";
 
@@ -479,7 +478,7 @@ public sealed partial class RevSupplyRiftSystem : EntitySystem
             {
                 if (_alert.GetLevel(station) != "gamma")
                 {
-                    _chatSystem.DispatchStationAnnouncement(station,
+                    _chat.DispatchStationAnnouncement(station,
                         Loc.GetString("centcomm-revs-gammarift"),
                         Loc.GetString("cmd-announce-sender"));
                     _alert.SetLevel(station, "gamma", true, true, true, true);
