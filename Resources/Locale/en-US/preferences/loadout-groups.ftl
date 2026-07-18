@@ -96,9 +96,6 @@ loadout-group-musician-outerclothing = Musician outer clothing
 loadout-group-quartermaster-head = Quartermaster head
 loadout-group-quartermaster-jumpsuit = Quartermaster jumpsuit
 loadout-group-quartermaster-neck = Quartermaster neck
-# Arcane - Start
-loadout-group-quartermaster-hands = Quartermaster hands
-# Arcane - End
 loadout-group-quartermaster-outerclothing = Quartermaster outer clothing
 loadout-group-quartermaster-shoes = Quartermaster shoes
 

@@ -28,11 +28,3 @@
     color: "#d64bc3"
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
-  #- type: Tag
-    #tags:
-      #- DroneUsable # Goobstation
-  # Orion-Edit-Start
-  #- type: VendingMachinePricing
-    #defaultPrice: 35
-    #extraPrice: 100
-  # Orion-Edit-End

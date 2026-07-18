@@ -95,9 +95,6 @@ loadout-group-musician-outerclothing = Музыкант, верхняя одеж
 loadout-group-quartermaster-head = Квартирмейстер, голова
 loadout-group-quartermaster-jumpsuit = Квартирмейстер, комбинезон
 loadout-group-quartermaster-neck = Квартирмейстер, шея
-# Arcane - Start
-loadout-group-quartermaster-hands = Квартирмейстер, руки
-# Arcane - End
 loadout-group-quartermaster-outerclothing = Квартирмейстер, верхняя одежда
 loadout-group-quartermaster-shoes = Квартирмейстер, обувь
 

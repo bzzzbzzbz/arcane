@@ -23,12 +23,6 @@
     proto: alien
   - type: Temperature
     currentTemperature: 310.15
-    #coldDamage:
-     # types:
-      #  Cold: 0
-    #heatDamage:
-     # types:
-      #  Heat: 3
   - type: Speech
     speechVerb: LargeMob
     allowedEmotes: [ 'Hisses', 'Roars', 'Rumbles', 'Growl', 'Scream' ]
@@ -54,15 +48,7 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: HumanoidXenomorph
-  #- type: BlockInjection
   - type: NightVision
-    #effect: EffectNightVisionXeno
-# Старая система оффов. Здесь испольуется WoundableVisuals, которая не требует оффов и работает на всех частях тела. Оверлэй пропиывюатся в самих огранах.
-#  - type: DamageVisuals
-#    damageOverlayGroups:
-#      Brute:
-#        sprite: Mobs/Effects/brute_damage.rsi
-#        color: "#44944A"
   - type: Stamina
     baseCritThreshold: 125
   - type: Hunger
@@ -136,29 +122,6 @@
     species: HumanoidXeno
     permanentlyHidden:
     - Eyes
-  # Arcane-start: xenos have a species-specific ERP organ set.
-  #- type: EroticOrgans
-    #groinCommon:
-    #- proto: OrganAnus
-     # slot: anus
-    #- proto: OrganButt
-     # slot: butt
-    #groinMale:
-    #- proto: OrganPenisHumanoidXeno
-     # slot: penis
-    #- proto: OrganTesticles
-     # slot: testicles
-    #groinFemale:
-    #- proto: OrganVagina
-     # slot: vagina
-    #- proto: OrganUterus
-     # slot: uterus
-    #chestFemale:
-    #- proto: OrganBreastsHumanoidXeno
-     # slot: breasts
-    #hideWhenFlaccid:
-    #- penis
-  # Arcane-end
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon

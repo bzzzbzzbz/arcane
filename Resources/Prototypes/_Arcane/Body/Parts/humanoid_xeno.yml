@@ -20,7 +20,7 @@
 - type: entity
   id: ChestHumanoidXeno
   name: "xenomorph chest"
-  parent: [PartHumanoidXeno, BaseChest]
+  parent: [PartHumanoidXeno, BaseTorso]
   components:
   - type: Sprite
     sprite: _Arcane/Mobs/Species/HumanoidXeno/parts.rsi
