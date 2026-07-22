@@ -156,12 +156,6 @@
   - WindbreakerMedical # 🌟Starlight🌟
   - RegularLabCoatLong # DeltaV
   - CoronerLabCoatLong # Starlight
-  # Arcane - Start
-  - EeayLabCoatPatron
-  - LabCoatBeltsPatron
-  - LabCoatBlackPatron
-  - LivseyCoatPatron
-  # Arcane - End
 
 - type: loadoutGroup
   id: MedicalDoctorPDA

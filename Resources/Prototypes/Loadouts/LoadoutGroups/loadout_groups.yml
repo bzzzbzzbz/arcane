@@ -902,12 +902,6 @@
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
   - QuartermasterFormalSkirt # DeltaV
-  # Arcane - Start
-  - SleevelesQMBlackSkirtPatron
-  - SleevelesQMBlackPatron
-  - SleevelesQMSkirtPatron
-  - SleevelesQMPatron
-  # Arcane - End
 
 - type: loadoutGroup
   id: QuartermasterNeck
@@ -916,10 +910,6 @@
   loadouts:
   - QuartermasterCloak
   - QuartermasterMantle
-  # Arcane - Start
-  - QMBlackCloakPatron
-  - QMWhiteCloakPatron
-  # Arcane - End
 
 - type: loadoutGroup
   id: QuartermasterOuterClothing
@@ -1430,10 +1420,6 @@
   - HeadofSecurityMantle
   - HeadofSecurityBoatCloak #DeltaV
   - HeadofSecurityRobe #DeltaV
-  # Arcane - Start
-  - HOSBlackCloakPatron
-  - HOSRedCloakPatron
-  # Arcane - End
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
@@ -1443,10 +1429,6 @@
   loadouts:
   - HeadofSecurityCoat
   - HeadofSecurityWinterCoat
-  # Arcane - Start
-  - LeatherCoatPatron
-  - HOSLongVestPatron
-  # Arcane - End
 
 - type: loadoutGroup
   id: HeadofSecurityJobTrinkets
