@@ -67,10 +67,6 @@
   - ChiefMedicalOfficerVestSuit # DeltaV
   - ChiefMedicalOfficerVestSkirt # DeltaV
   - ChiefMedicalOfficerSummerSuit # DeltaV
-  # Arcane - Start
-  - CMOSweaterSkirtPatron
-  - CMOSweaterPatron
-  # Arcane - End
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing

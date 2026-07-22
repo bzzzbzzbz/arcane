@@ -414,10 +414,6 @@
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
   - MaidOutfit # Starlight
-  # Arcane - Start
-  - BartenderPatron
-  - BartenderSkirtPatron
-  # Arcane - End
 
 
 - type: loadoutGroup
